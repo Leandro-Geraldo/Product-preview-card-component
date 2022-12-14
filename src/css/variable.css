@@ -1,0 +1,10 @@
+:root{
+    --bg-creme: hsl(30, 38%, 92%);
+    --verde-musgo:hsl(158, 36%, 37%);
+    --verde-escuro:hsl(158, 36%, 20%);
+    --cinza:hsl(228, 12%, 48%);
+    --branco:hsl(0, 0%, 100%);
+
+    --font-titulo-preco:"Fraunces", serif;
+    --font-texto:'Montserrat', sans-serif;
+}

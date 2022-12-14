@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product preview card component</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variable.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&amp;family=Montserrat:wght@500;700&amp;display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="src/img/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <section class="produto">
+        <picture class="imagem-produto">
+            <source srcset="src/img/image-product-mobile.jpg" media="(max-width: 410px)">
+
+            <img src="src/img/image-product-desktop.jpg" alt="imagem do pergume">
+        </picture>
+
+
+        <div class="conteudo">
+            <p class="tipo-produto">perfume</p>
+
+            <h1 class="titulo">
+                Gabrielle <br>
+                essence eau <br>
+                de parfum
+            </h1>
+
+            <p class="texto">
+                A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House
+                of CHANEL.
+            </p>
+
+            <ul class="precos">
+                <li class="preco-promocional">$149.99</li>
+                <li class="preco-normal">$169.99</li>
+            </ul>
+
+            <button class="btn-compra">Add to Card</button>
+        </div>
+    </section>
+</body>
+
+</html>

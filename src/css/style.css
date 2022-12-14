@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+html{
+   font-size: 62.5%;
+}
+
+body{
+    background-color: var(--bg-creme);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.produto{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.imagem-produto img{
+    width: 300px;
+    height: 450px;
+}
+
+.conteudo{
+    background-color: var(--branco);
+    padding: 30px;
+    width: 300px;
+    height: 450px
+}
+
+.conteudo .tipo-produto{
+    color: var(--cinza);
+    text-transform: uppercase;
+    font-family: var(--font-texto);
+    font-size: 12px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.conteudo .titulo{
+    font-family: var(--font-titulo-preco);
+    font-size: 4rem;
+    line-height: 0.9;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.conteudo .texto{
+    font-size: 15px;
+    font-family: var(--font-texto);
+    color: var(--cinza);
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.conteudo .precos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    right: 20px;
+}
+
+.conteudo .preco-promocional{
+    font-family: var(--font-titulo-preco);
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--verde-musgo);
+}
+
+.conteudo .preco-normal{
+    font-size: 15px;
+    color: var(--cinza);
+    text-decoration: line-through;
+}
+
+.conteudo .btn-compra{
+    padding: 15px 70px;
+    background-color: var(--verde-musgo);
+    cursor: pointer;
+    color: var(--branco);
+    border: none;
+    border-radius: 10px;
+    font-family: var(--font-texto);
+    font-size: 12px;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+}
+
+.conteudo .btn-compra:hover{
+    background-color: var(--verde-escuro);
+}
+
+.conteudo .btn-compra::before{
+    content:url(../img/icon-cart.svg);
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+}
